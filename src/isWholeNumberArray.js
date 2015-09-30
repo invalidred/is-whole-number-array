@@ -1,8 +1,6 @@
-
-/*global console*/
 'use strict';
 
-var isArray = require('util').isArray;
+let isArray = require('util').isArray;
 
 /**
  * isWholeNumberArray is a utility function that takes an array
@@ -16,8 +14,11 @@ var isWholeNumberArray = (array) => {
     return false;
   }
 
-  var digitPattern = new RegExp("^\\d+$");
-  for (var i = 0, len = array.length; i < len; i++) {
+  let digitPattern = new RegExp('^\\d+$'),
+      len = array.length,
+      i = 0;
+
+  for (; i < len; ++i) {
     if (!digitPattern.test(array[i])) {
       return false;
     }
