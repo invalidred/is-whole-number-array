@@ -39,7 +39,7 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Release History
 
-* 2015-09-30    1.0.1 Initial release
+* 2015-09-30    1.0.2 Initial release
 
 ## License
 
