@@ -1,10 +1,10 @@
 {
   "name": "is-whole-number-array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Abdul Khan"
   },
-  "main": "dist/isNumberArray.js",
+  "main": "dist/isWholeNumberArray.js",
   "description": "check whether an array contains only whole numbers. the elements in the array can have real javascript numbers or javasript numbers in string",
   "contributors": [
     {
