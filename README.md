@@ -26,7 +26,7 @@ console.log(isWholeNumberArray(stringRealNumberArray)); // false
 
 ## Run Code Sample
 
-`npm start`
+`node example.js`
 
 ## Tests
 
